@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+}
+body{
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    width: 100%;
+    height: 11vh;
+    background-color: #fff;
+    
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.link{
+    padding-left: 10px;
+    
+}
+.link2{
+    padding-right: 10px;
+}
+.img{
+    margin-right: 171px;
+   
+}
+.img img{
+    width: 156px;
+    margin-right: 54px;
+}
+hr{
+    position: relative;
+    top: 20px;
+    background-color: black;
+}
+.links a{
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    font-weight: 200;
+    padding: 5px;
+    margin-right: -5px;
+}
+.links a:hover{
+    border-radius: 5px;
+    border: 1px solid;
+    
+}
+nav input{
+    font-size: 13px;
+    font-weight: 600;
+    color: darkgray;
+    width: 100%;
+    height: 5vh;
+    padding-left: 24px;
+    border: none;
+    margin-top: -10px;
+    
+}
+.section1 {
+    background-image: url(Large-HOMEPAGE_DESKTOP_WINTER23_SL_CAGOLE_BASKET_2600x1300px_2x1.jpg);
+    width: 100%;
+    height: 102vh;
+    background-position: center;
+    background-size:contain ;
+    background-repeat: no-repeat;
+    
+}
+.gap{
+    width: 90%;
+    height: 90vh;
+    
+}
+.button h2{
+    color: #fff;
+    font-weight: bolder;
+}
+.button button{
+    height: 5vh;
+    width: 8%;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.button button:hover{
+    
+}
+.section2 {
+    background-image: url(Large-HOMEPAGE-DESKTOP_0003_W23_Look_41_2600x1300px_2x1.jpg);
+    width: 100%;
+    height: 102vh;
+    background-position: center;
+    background-size:contain ;
+    background-repeat: no-repeat;
+
+}
+.section2 h2{
+    color: black;
+}
+.section3 {
+    background-image: url(Large-WINTER23_SL_HOMEPAGE-DESKTOP_2600x1300px_2x1_CRUSH_SLING_FLORAL_1789_OPTION5_V01_Master.jpg);
+    width: 100%;
+    height: 102vh;
+    background-position: center;
+    background-size:contain ;
+    background-repeat: no-repeat;
+
+}
+.section3 h2{
+    color: #fff;
+}
+.section4 {
+    background-image: url(Large-HOMEPAGE-DESKTOP-W1-0006_W23_Look_16_2600x1300px.jpg);
+    width: 100%;
+    height: 102vh;
+    background-position: center;
+    background-size:contain ;
+    background-repeat: no-repeat;
+
+}
+.section4 h2{
+    color: black;
+}
+.section5 {
+    background-image: url(Large-Home-_0000_230317_29MonacoCat_1136-5_FINAL_EXTENDED-1.jpg);
+    width: 100%;
+    height: 102vh;
+    background-position: center;
+    background-size:contain ;
+    background-repeat: no-repeat;
+
+}
+.section5 h2{
+    color: black;
+}
+.card1{
+    width: 16%;
+    height: 32vh;
+    background-color: darkgray;
+    border: 1px solid black;
+    font-size: smaller;
+    padding: 16px 12px 0px;
+
+}
+
+.cards{
+    display: flex;
+}
+.cards ul{
+    list-style-type: none;
+    margin-left: -33PX;
+}
+.card2{
+    width: 16%;
+    height: 32vh;
+    background-color: darkgray;
+    border: 1px solid black;
+    font-size: smaller;
+    padding: 16px 12px 0px;
+
+}
+.card3{
+    width: 16%;
+    height: 32vh;
+    background-color: darkgray;
+    border: 1px solid black;
+    font-size: smaller;
+    padding: 16px 12px 0px;
+
+}
+.card4{
+    width: 16%;
+    height: 32vh;
+    background-color: darkgray;
+    border: 1px solid black;
+    font-size: smaller;
+    padding: 16px 12px 0px;
+
+}
+.card5{
+    width: 16%;
+    height: 32vh;
+    background-color: darkgray;
+    border: 1px solid black;
+    font-size: smaller;
+    padding: 16px 12px 0px;
+
+}
+.card6{
+    width: 16%;
+    height: 32vh;
+    background-color: darkgray;
+    border: 1px solid black;
+    font-size: smaller;
+    padding: 16px 12px 0px;
+
+
+}
+.end{
+    background-color: darkgray;
+    height: 6vh;
+    width: 100%;
+    padding-top: 7px;
+}
+
+@media screen and (max-width:450px) {
+    
+   
+    .links a{
+        display: none;
+    }
+    .img img{
+        position: relative;
+        left: 110px;
+        width: 80%;
+    }
+    nav input{
+        border: 2px solid;
+        width: 99%;
+        padding-left: 0px;
+        height:40px;
+
+    }
+    nav{
+        position: fixed;
+    }
+    hr{
+        display: none;
+    }
+    .section1{
+        background-image: url(Mobile/basket.jpg);
+        width: 100%;
+        height: 83vh;
+    }
+    .gap{
+        height: 70vh;
+    }
+    .button button{
+        width: fit-content;
+    }
+    .section2{
+        background-image: url(Mobile/new\ arrivals\ 1.jpg);
+        width: 100%;
+        height: 83vh;
+    }.section3{
+        background-image: url(Mobile/sling.jpg);
+        width: 100%;
+        height: 83vh;
+    }
+    .section4{
+        background-image: url(Mobile/new\ arrivals\ 2.jpg);
+        width: 100%;
+        height: 83vh;
+    }
+    .section5{
+        background-image: url(Mobile/Glass.jpg);
+        width: 100%;
+        height: 83vh;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .card1,.card2,.card3,.card4,.card5,.card6{
+        width: 94%;
+        height: fit-content;
+    }
+    .newsletter{
+        display: none;
+    }
+    .card1:hover .newsletter{
+        display: block;
+    }
+    .hover2{
+        display: none;
+    }
+    .card2:hover .hover2{
+        display: block;
+    }
+    .hover3{
+        display: none;
+    }
+    .card3:hover .hover3{
+        display: block;
+    }
+    .hover4{
+        display: none;
+    }
+    .card4:hover .hover4{
+        display: block;
+    }
+    .hover5{
+        display: none;
+    }
+    .card5:hover .hover5{
+        display: block;
+    }.hover6{
+        display: none;
+    }
+    .card6:hover .hover6{
+        display: block;
+    }
+
+
+
+    
+}
+@media screen and (max-width:376px) {
+    .section1{
+        height: 100vh;
+    }
+}
+    
+
